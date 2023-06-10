@@ -1,14 +1,17 @@
-import _ from "lodash";
-import "./style.css";
+import './style.css';
+import toDoList from './modules/taskList.js';
 
-function component() {
-  const element = document.createElement("div");
+const listContainer = document.querySelector('.tasks-container');
 
-  // Lodash, now imported by this script
-  element.innerHTML = _.join(["Hello", "webpack"], " ");
-  element.classList.add("hello");
+const displayTasks = () => {
+  let singleTask = '';
+  toDoList.forEach((task) => {
+    singleTask += `<li class="task-item" id='${task.index}'>
+                    <div class="checkList"> <input type="checkbox" name="check"> ${task.description}</div>
+                    <i class="fa-solid fa-trash"></i>
+                </li>`;
+    listContainer.innerHTML = singleTask;
+  });
+};
 
-  return element;
-}
-
-document.body.appendChild(component());
+window.onload = displayTasks();
