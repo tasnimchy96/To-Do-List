@@ -20,7 +20,7 @@
 
 # :book: [Awesome Books]
 
-**[Awesome Books]** is a microverse project where we build a basic website that allows users to add/remove books from a list. We achieved that by using JavaScript objects and arrays. We also dynamically modified the DOM and add basic events.
+**[To-Do List]** is a microverse project where we build a basic website that allows users to add/remove list. We achieved that by using JavaScript objects and arrays. We also dynamically modified the DOM and add basic events.
 
 
 
@@ -34,7 +34,7 @@ HTML, CSS and Javascript
 ### Key Features
 
 - **[- Use Javascript, HTML & CSS linters]**
-- **[- Build a basic website that allows users to add/remove books from a list.]**
+- **[- Build a basic website that allows users to add/remove task list.]**
 - **[- Used JavaScript objects and arrays.]**
 - **[- Dynamically modified the DOM and add basic events.]**
 
@@ -52,8 +52,8 @@ Open Terminal & Clone this repository to your desired folder:
 
 ```sh
 cd <path-to-the-folder>
-git clone https://github.com/tasnimchy96/awesomeBooks-es6.github.io
-cd awesomeBooks-es6.github.io
+git clone https://github.com/tasnimchy96/to-do-list.github.io
+cd to-do-list.github.io
 code .
 ```
 ### Install
@@ -77,7 +77,7 @@ npx eslint .
 
 ### :rocket: Live-Demo
 
-- [Live-Demo](https://tasnimchy96.github.io/awesomeBooks-es6.github.io/)
+- [Live-Demo](https://tasnimchy96.github.io/to-do-list.github.io/)
 
 ## :busts_in_silhouette: Authors
 
@@ -110,7 +110,7 @@ If you like this project feel free to share with your friends.
 
 ## :pray: Acknowledgments
 
-I would like to thank Microverse for this amazing exercise and also like to thank for the kind collaboration of Samreen Mujtaba.
+I would like to thank Microverse for this amazing exercise.
 
 ## 📝 License <a name="license"></a>
 This project is [MIT](./LICENSE.md) licensed.
