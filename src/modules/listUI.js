@@ -18,7 +18,7 @@ function handleListClick(event) {
   }
 }
 
-export function initializeListUI() {
+export default function initializeListUI() {
   const taskList = document.getElementById('task-list');
   taskList.addEventListener('click', handleListClick);
 }

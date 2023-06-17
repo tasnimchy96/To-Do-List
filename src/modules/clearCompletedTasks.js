@@ -1,6 +1,6 @@
-import { renderTaskList } from './taskList.js';
+import renderTaskList from './taskList.js';
 
-export function clearCompletedTasks(tasks) {
+export default function clearCompletedTasks(tasks) {
   const updatedTasks = tasks.filter((task) => !task.completed);
 
   for (let i = 0; i < updatedTasks.length; i += 1) {

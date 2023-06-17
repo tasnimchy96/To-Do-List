@@ -1,8 +1,8 @@
-import { renderTaskList } from './taskList.js';
-import { saveTasks } from './localStorage.js';
+import renderTaskList from './taskList.js';
+import saveTasks from './localStorage.js';
 
-export function editTaskDescription(tasks, taskIndex) {
-  const newDescription = prompt('Enter the new task description:');
+export default function editTaskDescription(tasks, taskIndex) {
+  const newDescription = window.prompt;
   if (newDescription !== null) {
     tasks[taskIndex].description = newDescription;
     renderTaskList(tasks);

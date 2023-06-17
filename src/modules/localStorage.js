@@ -1,5 +1,5 @@
 // Function to save the tasks in local storage
-export function saveTasks(tasks) {
+export default function saveTasks(tasks) {
   localStorage.setItem('tasks', JSON.stringify(tasks));
 }
 

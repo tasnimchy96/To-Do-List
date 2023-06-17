@@ -1,6 +1,6 @@
-import { renderTaskList } from './taskList.js';
+import renderTaskList from './taskList.js';
 
-export function addTask(tasks, description) {
+export default function addTask(tasks, description) {
   const newTask = {
     description,
     completed: false,

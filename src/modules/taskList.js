@@ -1,6 +1,6 @@
-import { saveTasks } from './localStorage.js';
+import saveTasks from './localStorage.js';
 
-export function renderTaskList(tasks) {
+export default function renderTaskList(tasks) {
   const deleteTask = (task) => {
     const taskIndex = tasks.findIndex((t) => t.index === task.index);
     if (taskIndex !== -1) {
