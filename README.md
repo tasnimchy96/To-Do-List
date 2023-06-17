@@ -76,7 +76,7 @@ The To Do List website provides the following features:
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 <ul>
-  <li><a href="https://github.com/tasnimchy96/to-do-list.github.io/dist/">Live Demo</a></li>
+  <li><a href="https://tasnimchy96.github.io/to-do-list.github.io/dist/">Live Demo</a></li>
   <li><a href="https://github.com/tasnimchy96/to-do-list.github.io/dist/"><img src="./Capture d'écran 2023-06-17 184926.png" width="50%"></a></li>
 </ul>
 
