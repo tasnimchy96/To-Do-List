@@ -3,33 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>To-Do-list App</title>
+    <title>To Do List</title>
   </head>
-
   <body>
-    <main class="container">
-      <section class="listCont">
-        <div class="title">
-          Today's To Do <i class="fa-solid fa-arrows-rotate"></i>
-        </div>
-        <div id="add">
-          <input
-            type="text"
-            placeholder="Add to your list..."
-            name="addDo"
-            id="addDo"
-          />
-          <i class="fa-solid fa-arrow-turn-down enter"></i>
-        </div>
-        <ul class="tasks-container"></ul>
-        <div class="clearCont">
-          <button class="clrBtn" type="button">Clear all completed</button>
-        </div>
-      </section>
-    </main>
-    <script
-      src="https://kit.fontawesome.com/b1750e2282.js"
-      crossorigin="anonymous"
-    ></script>
+    <h1>To-Do List</h1>
+    <div id="todo-list">
+      <h3>Today's To Do</h3>
+      <input
+        type="text"
+        id="task-input"
+        placeholder="Add to your list..."
+        autofocus
+      />
+      <ul id="task-list"></ul>
+      <button type="button" id="clear-button">Clear All Completed</button>
+    </div>
   </body>
 </html>
